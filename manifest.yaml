@@ -1,0 +1,5 @@
+slug: laogu-unlock
+display_name: 解禁冲击评估
+description: 解禁冲击评估：输入公司名称或股票代码，获取限售解禁信息（日期/规模/占比/股东性质），按占流通股比定级抛压，并用历史案例作事实参照。
+version: 1.0.0
+author: 老谷拆财报
