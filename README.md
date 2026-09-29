@@ -51,6 +51,25 @@ https://github.com/laogu-caibao/laogu-unlock/archive/refs/heads/main.zip
 - 可与 `laogu-announcements` 联动：解禁提示性公告出现后自动触发评估
 
 ---
+## English
+
+**laogu-unlock — Share-unlock impact grader.** Enter a company; get the upcoming unlock sized as a share of free float, a pressure grade, and real historical precedent cases. Install: `npx skills add laogu-caibao/laogu-unlock`.
+
+## FAQ
+
+**Q：laogu-unlock 有什么用？**
+适合的场景：持仓公司快解禁了，想评估抛压有多大（占流通股比例定级）并参考历史类似案例。
+
+**Q：数据可靠吗？会荐股吗？**
+数字必须来自可核验的公开来源（上市公司公告、交易所公开数据、公开网页），取不到就标「未核验」，绝不编造；只做结构化整理与解读，不构成投资建议。
+
+**Q：怎么安装？支持哪些 AI 平台？**
+```bash
+npx skills add laogu-caibao/laogu-unlock
+```
+平台中立 Markdown，Claude Code、Codex、豆包智能体、Workbuddy、扣子 Coze、Trae 等环境均可用；数据能力可用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)（`uvx laogu-mcp`）一次装齐。更多 skill 见[老谷拆财报组织主页](https://github.com/laogu-caibao)。
+---
+
 ## 出品
 
 **老谷拆财报** —— 以数据为刃，剖市场真相
